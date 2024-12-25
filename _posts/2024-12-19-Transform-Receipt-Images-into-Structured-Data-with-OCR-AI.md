@@ -4,9 +4,6 @@ title: "Transform Receipt Images into Structured Data with OCR & AI"
 date: 2024-12-19
 categories: [AI, Data Processing, OCR]
 tags: [ocr, machine learning, python, data extraction, receipts, automation]
-image: 
-  path: /assets/img/headers/receipt-ocr.jpg
-  alt: Receipt scanning with AI
 ---
 
 <div align="center">

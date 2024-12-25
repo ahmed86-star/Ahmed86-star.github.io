@@ -1,7 +1,7 @@
-t---
+---
 # the default layout is 'page'
 icon: fas fa-shield-alt
-rder: 1
+order: 1
 ---
 
 > 🔐 **Welcome to my Digital Fortress!**

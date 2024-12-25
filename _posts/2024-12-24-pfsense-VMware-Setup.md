@@ -4,10 +4,9 @@ title: "Setting Up pfSense on VMware: Complete Installation Guide"
 date: 2024-11-24
 categories: [Networking, Firewall, Homelab]
 tags: [pfsense, vmware, networking, firewall, security, virtualization]
-image: 
-  path: /assets/img/headers/pfsense-header.jpg
-  alt: pfSense firewall setup
 ---
+
+
 
 
 

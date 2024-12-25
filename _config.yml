@@ -14,7 +14,7 @@ timezone: America/New_York  # Adjust to your timezone
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Abdirahman Ahmed
+title: Ahmed1
 tagline: Cybersecurity Student & Enthusiast
 description: >- 
   Hello, I’m Abdirahman Ahmed, a passionate Cybersecurity student and enthusiast. 
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Abdirahman Ahmed
+  name: Ahmed1
   email: your-email@domain.com  # Update with your email
   links:
     # The first element serves as the copyright owner's link
@@ -98,7 +98,7 @@ theme_mode: dark  # Set default theme to dark for cybersecurity aesthetic
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar.jpg  # Add your avatar image to assets/img/ directory
+# avatar: /assets/img/avatar.jpg  # Add your avatar image to assets/img/ directory
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
