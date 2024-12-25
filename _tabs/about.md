@@ -61,9 +61,9 @@ I'm a passionate Cybersecurity student on a mission to make the digital world a 
 > Ready to collaborate on making cyberspace more secure?
 
 
-- **🐱 GitHub**: [ahmed86-star](https://github.com/ahmed86-star)
+- **:octocat: GitHub**: [ahmed86-star](https://github.com/ahmed86-star)
 - **💼 LinkedIn**: [Abdirahman Ahmed](https://linkedin.com/in/abdirahman-ahmed-77142623a)
-- **🎯 TryHackMe**: AHMED1
+- **🎯 TryHackMe**: [AHMED1](https://tryhackme.com/r/p/AHMED1)
 - **💻 LeetCode**: [ahmed86-star](https://leetcode.com/u/ahmed86-star/)
 
 > 💡 Always remember: In cybersecurity, we don't just find problems - we solve them!
