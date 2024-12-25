@@ -6,11 +6,6 @@ categories: [Security, Cloud, Azure]
 tags: [azure, sentinel, honeypot, siem, security, monitoring, lab]
 # Removed image section as requested
 ---
-layout: post
-title: "Building a Honeypot with Azure Sentinel: Security Monitoring Lab"
-date: 2024-11-24
-categories: [Security, Cloud, Azure]
-tags: [azure, sentinel, honeypot, siem, security, monitoring, lab]
 
 # Azure-Sentinel-Honeypot
 Setup Azure Sentinel and a honeypot to observe live RDP brute force attacks and plot attacker geolocation

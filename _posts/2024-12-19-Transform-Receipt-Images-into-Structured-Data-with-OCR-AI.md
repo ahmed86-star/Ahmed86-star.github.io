@@ -12,8 +12,11 @@ tags: [ocr, machine learning, python, data extraction, receipts, automation]
 
 **Transform Receipt Images into Structured Data with OCR & AI**
 
+<!-- Python version badge -->
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
+<!-- OpenCV badge -->
 [![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+<!-- MIT License badge -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
