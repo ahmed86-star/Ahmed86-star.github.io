@@ -9,24 +9,24 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: America/New_York  # Adjust to your timezone
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
-
-tagline: A text-focused Jekyll theme # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+title: Abdirahman Ahmed
+tagline: Cybersecurity Student & Enthusiast
+description: >- 
+  Hello, I’m Abdirahman Ahmed, a passionate Cybersecurity student and enthusiast. 
+  Currently, I’m pursuing a degree in Cybersecurity, where I am developing a deep 
+  understanding of various aspects of network security, cloud computing,
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://ahmed86-star.github.io"  # Update with your GitHub Pages URL
 
 github:
-  username: github_username # change to your GitHub username
+  username: ahmed86-star
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,12 +34,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Abdirahman Ahmed
+  email: your-email@domain.com  # Update with your email
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://github.com/ahmed86-star
+    - https://linkedin.com/in/abdirahman-ahmed-77142623a
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark  # Set default theme to dark for cybersecurity aesthetic
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg  # Add your avatar image to assets/img/ directory
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -109,25 +109,17 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: giscus
   # The provider options are as follows:
-  disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
-  utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: ahmed86-star/ahmed86-star.github.io  # Update with your repo
+    repo_id: # Get from giscus.app
+    category: Comments
+    category_id: # Get from giscus.app
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    lang: en
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
