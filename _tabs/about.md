@@ -62,7 +62,7 @@ I'm a passionate Cybersecurity student on a mission to make the digital world a 
 
 
 - **:octocat: GitHub**: [ahmed86-star](https://github.com/ahmed86-star)
-- **💼 LinkedIn**: [Abdirahman Ahmed](https://linkedin.com/in/abdirahman-ahmed-77142623a)
+<!-- - **💼 LinkedIn**: Coming Soon! -->
 - **🎯 TryHackMe**: [AHMED1](https://tryhackme.com/r/p/AHMED1)
 - **💻 LeetCode**: [ahmed86-star](https://leetcode.com/u/ahmed86-star/)
 
