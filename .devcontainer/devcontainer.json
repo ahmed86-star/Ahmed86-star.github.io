@@ -6,7 +6,12 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh"
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.showExitAlert": false,
+        "terminal.integrated.enableVisualBell": false,
+        "accessibility.signals.terminalBell": { "sound": "off" },
+        "terminal.integrated.gpuAcceleration": "off",
+        "terminal.integrated.defaultLocation": "editor"
       },
       "extensions": [
         // Liquid tags auto-complete
