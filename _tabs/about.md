@@ -4,6 +4,7 @@ icon: fas fa-shield-alt
 order: 1
 ---
 
+<!--
 > 🔐 **Welcome to my Digital Fortress!**
 
 # 👨‍💻 Abdirahman Ahmed
@@ -60,11 +61,10 @@ I'm a passionate Cybersecurity student on a mission to make the digital world a 
 
 > Ready to collaborate on making cyberspace more secure?
 
-
 - **:octocat: GitHub**: [ahmed86-star](https://github.com/ahmed86-star)
-<!-- - **💼 LinkedIn**: Coming Soon! -->
 - **🎯 TryHackMe**: [AHMED1](https://tryhackme.com/r/p/AHMED1)
 - **💻 LeetCode**: [ahmed86-star](https://leetcode.com/u/ahmed86-star/)
 
 > 💡 Always remember: In cybersecurity, we don't just find problems - we solve them!
+-->
 
