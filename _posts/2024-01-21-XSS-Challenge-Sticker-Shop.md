@@ -6,6 +6,7 @@ tags: [xss, ctf, web-exploitation, javascript]
 image:
   path: https://github.com/user-attachments/assets/1d7a378d-3943-40dc-906b-66a4002470a5
   alt: The Sticker Shop Challenge
+order: 1
 ---
 
 ## The Challenge
