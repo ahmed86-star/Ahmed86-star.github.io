@@ -2,16 +2,16 @@
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2"
-gem "jekyll-theme-chirpy"
-gem "webrick"
+gem "jekyll", "~> 4.3.3"
+gem "jekyll-theme-chirpy", "~> 6.4.2"
+gem "webrick", "~> 1.8"
 
 group :jekyll_plugins do
-  gem "jekyll-archives"
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jekyll-redirect-from"
-  gem "jekyll-seo-tag"
+  gem "jekyll-archives", "~> 2.2"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-redirect-from", "~> 0.16"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 
 gem "html-proofer", "~> 5.0", group: :test
