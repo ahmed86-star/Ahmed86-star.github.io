@@ -1,6 +1,6 @@
 ---
 title: "XSS Challenge: Exploiting a Sticker Shop's Feedback Form"
-date: 2024-01-21
+date: 2025-04-19
 categories: [Cybersecurity, Web Security]
 tags: [xss, ctf, web-exploitation, javascript]
 image:
