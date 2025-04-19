@@ -2,7 +2,17 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.2", ">= 7.2.4"
+gem "jekyll", "~> 4.3.2"
+gem "jekyll-theme-chirpy"
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-archives"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-seo-tag"
+end
 
 gem "html-proofer", "~> 5.0", group: :test
 
@@ -13,6 +23,5 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "jekyll"
 gem "csv"
 gem "base64"
