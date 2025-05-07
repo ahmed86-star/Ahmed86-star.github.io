@@ -23,6 +23,9 @@ description: >-
 
 url: "https://ahmed86-star.github.io"  # Your GitHub Pages URL
 
+# The base URL of your site
+baseurl: ""
+
 github:
   username: ahmed86-star
 
@@ -138,9 +141,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-
-# The base URL of your site
-baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
