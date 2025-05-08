@@ -9,22 +9,23 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: America/New_York  # Adjust to your timezone
+timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Ahmed1
+
 tagline: Cybersecurity Student & Enthusiast
-description: >- 
+
+description: >- # used by seo meta and the atom feed
   Hello, I'm Abdirahman Ahmed, a passionate Cybersecurity student and enthusiast. 
   Currently, I'm pursuing a degree in Cybersecurity, where I am developing a deep 
-  understanding of various aspects of network security, cloud computing,
+  understanding of various aspects of network security, cloud computing.
 
-url: "https://ahmed86-star.github.io"  # Your GitHub Pages URL
-
-# The base URL of your site
-baseurl: ""
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://ahmed86-star.github.io"
 
 github:
   username: ahmed86-star
@@ -36,7 +37,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Ahmed1
-  email: your-email@domain.com  # Update with your email
+  email: your-email@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/ahmed86-star
@@ -89,7 +90,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark  # Set default theme to dark for cybersecurity aesthetic
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -99,7 +100,7 @@ theme_mode: dark  # Set default theme to dark for cybersecurity aesthetic
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-# avatar: /assets/img/avatar.jpg  # Add your avatar image to assets/img/ directory
+avatar:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -112,8 +113,15 @@ comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: giscus
   # The provider options are as follows:
+  disqus:
+    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
   giscus:
-    repo: ahmed86-star/ahmed86-star.github.io  # Update with your repo
+    repo: ahmed86-star/ahmed86-star.github.io
     repo_id: # Get from giscus.app
     category: Comments
     category_id: # Get from giscus.app
@@ -141,6 +149,9 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+
+# The base URL of your site
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
