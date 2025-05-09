@@ -3,11 +3,12 @@ title: macOS Forensics Artifacts
 date: 2024-01-25 00:00:00 +0000
 categories: [TryHackMe, Forensics]
 tags: [macos, forensics, artifacts, tryhackme]
+image:
+  path: https://github.com/user-attachments/assets/bbf1b268-f238-4838-a2bc-7ea707780421
+  alt: macOS Forensics Artifacts Room Banner
 ---
 
 # macOS Forensics Artifacts
-
-![macOS Forensics Artifacts Room Banner](https://github.com/user-attachments/assets/bbf1b268-f238-4838-a2bc-7ea707780421)
 
 This room builds upon the knowledge gained from the "macOS Forensics: The Basics" room, diving deeper into the forensic artifacts present in macOS systems and how to analyze them effectively.
 
