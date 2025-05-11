@@ -1,6 +1,6 @@
 ---
 title: Publisher - TryHackMe Walkthrough
-date: 2024-01-25 00:00:00 +0000
+date: 2024-01-21 00:00:00 +0000
 categories: [TryHackMe, Web Exploitation]
 tags: [web, spip, rce, docker, privilege-escalation, tryhackme]
 image:
