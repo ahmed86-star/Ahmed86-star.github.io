@@ -3,6 +3,7 @@ title: macOS Forensics Artifacts
 date: 2024-01-21 00:00:00 +0000
 categories: [TryHackMe, Forensics]
 tags: [macos, forensics, artifacts, tryhackme]
+order: 2
 image:
   path: https://github.com/user-attachments/assets/bbf1b268-f238-4838-a2bc-7ea707780421
   alt: macOS Forensics Artifacts Room Banner

@@ -3,6 +3,7 @@ title: Publisher - TryHackMe Walkthrough
 date: 2024-01-21 00:00:00 +0000
 categories: [TryHackMe, Web Exploitation]
 tags: [web, spip, rce, docker, privilege-escalation, tryhackme]
+order: 4
 image:
   path: https://github.com/user-attachments/assets/9e1919d4-6a88-4bcf-9f67-1d28e61b7cac
   alt: Publisher Room Banner
