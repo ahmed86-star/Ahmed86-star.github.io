@@ -4,7 +4,9 @@ title: "Building a Honeypot with Azure Sentinel: Security Monitoring Lab"
 date: 2024-11-24
 categories: [Security, Cloud, Azure]
 tags: [azure, sentinel, honeypot, siem, security, monitoring, lab]
-# Removed image section as requested
+image:
+  path: https://github.com/ahmed86-star/Azure-Sentinel-Honeypot/assets/113064932/1564a35b-a4a4-4858-a21d-c17dac3c2864
+  alt: Azure Sentinel Honeypot Banner
 ---
 
 # Azure-Sentinel-Honeypot

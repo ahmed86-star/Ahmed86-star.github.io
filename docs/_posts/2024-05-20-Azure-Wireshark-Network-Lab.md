@@ -4,6 +4,9 @@ title: "Azure Wireshark Network Analysis Lab: Hands-on Network Traffic Monitorin
 date: 2024-05-20
 categories: [Networking, Cloud, Security]
 tags: [azure, wireshark, network-analysis, security, monitoring, packet-capture]
+image:
+  path: https://github.com/ahmed86-star/Azure-Wireshark-Network-Lab/assets/113064932/ad6a0d2c-3847-45fa-850d-3e994f63f60d
+  alt: Azure Wireshark Network Lab Banner
 ---
 
 # Azure-Wireshark-Network-Lab

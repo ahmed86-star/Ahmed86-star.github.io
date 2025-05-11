@@ -4,6 +4,9 @@ title: "Setting Up Wazuh SIEM on Debian 12 in Proxmox: A Complete Guide"
 date: 2024-11-24
 categories: [Security, SIEM, Homelab]
 tags: [wazuh, debian, proxmox, siem, security, monitoring]
+image:
+  path: https://github.com/user-attachments/assets/504e6993-f72f-4e60-bc9d-75e153b1070b
+  alt: Wazuh SIEM Setup Banner
 ---
 
 ![server](https://github.com/user-attachments/assets/504e6993-f72f-4e60-bc9d-75e153b1070b)
