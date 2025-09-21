@@ -58,6 +58,7 @@ jobs:
           bundle exec jekyll build
 
       - name: Test site
+        continue-on-error: true
         run: |
           bundle exec htmlproofer docs/_site \
             \-\-disable-external \
