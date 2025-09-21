@@ -44,7 +44,6 @@ Here are the key services running in my homelab:
 ### 📺 Media Services
 
 #### Plex Media Server
-![Plex](https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Personal Netflix alternative with hardware transcoding support.
 - **Access**: [plex.tv](https://www.plex.tv/)
@@ -52,7 +51,6 @@ Personal Netflix alternative with hardware transcoding support.
 - **Storage**: 4TB media library
 
 #### Jellyfin
-![Jellyfin](https://images.unsplash.com/photo-1489599511986-52c99b50e6e1?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Open-source media server with no subscription requirements.
 - **Access**: [jellyfin.org](https://jellyfin.org/)
@@ -61,7 +59,6 @@ Open-source media server with no subscription requirements.
 ### 🏠 Home Automation
 
 #### Home Assistant
-![Home Assistant](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Central hub for all smart home devices and automation.
 - **Access**: [home-assistant.io](https://www.home-assistant.io/)
@@ -71,7 +68,6 @@ Central hub for all smart home devices and automation.
 ### 🛡️ Network & Security
 
 #### Pi-hole
-![Pi-hole](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Network-wide ad blocker and DNS sinkhole.
 - **Access**: [pi-hole.net](https://pi-hole.net/)
@@ -79,7 +75,6 @@ Network-wide ad blocker and DNS sinkhole.
 - **Stats**: 30%+ of requests blocked daily
 
 #### Bitwarden
-![Bitwarden](https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Self-hosted password manager for secure credential storage.
 - **Access**: [bitwarden.com](https://bitwarden.com/)
@@ -89,7 +84,6 @@ Self-hosted password manager for secure credential storage.
 ### 📊 Monitoring & Management
 
 #### Grafana
-![Grafana](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Beautiful dashboards for monitoring all infrastructure metrics.
 - **Access**: [grafana.com](https://grafana.com/)
@@ -97,7 +91,6 @@ Beautiful dashboards for monitoring all infrastructure metrics.
 - **Dashboards**: 15+ custom monitoring dashboards
 
 #### Prometheus
-![Prometheus](https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Time-series database for collecting and storing metrics.
 - **Access**: [prometheus.io](https://prometheus.io/)
@@ -105,7 +98,6 @@ Time-series database for collecting and storing metrics.
 - **Alerts**: Real-time notifications for issues
 
 #### Portainer
-![Portainer](https://images.unsplash.com/photo-1605745341112-85968b19335a?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Docker container management made simple.
 - **Access**: [portainer.io](https://www.portainer.io/)
@@ -115,7 +107,6 @@ Docker container management made simple.
 ### ☁️ Cloud Services
 
 #### Nextcloud
-![Nextcloud](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Personal cloud storage and collaboration platform.
 - **Access**: [nextcloud.com](https://nextcloud.com/)
@@ -123,7 +114,6 @@ Personal cloud storage and collaboration platform.
 - **Storage**: 2TB personal cloud storage
 
 #### Nginx Proxy Manager
-![Nginx](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Reverse proxy with automatic SSL certificate management.
 - **Access**: [nginxproxymanager.com](https://nginxproxymanager.com/)
@@ -133,7 +123,6 @@ Reverse proxy with automatic SSL certificate management.
 ### 🎮 Entertainment & Media
 
 #### Sonarr & Radarr
-![Sonarr](https://images.unsplash.com/photo-1489599511986-52c99b50e6e1?w=400&auto=format&fit=crop){: .shadow style="max-width: 200px; height: auto;"}
 
 Automated TV show and movie collection management.
 - **Sonarr**: [sonarr.tv](https://sonarr.tv/)
