@@ -4,7 +4,7 @@ date: 2023-02-22 00:00:00 +0000
 categories: [Networking, Hardware Setup]
 tags: [netgear, switch, networking, configuration, vlan, qos, network-security, gs724tp]
 image:
-  path: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80
+  path: https://images.unsplash.com/photo-1520869562399-e772f042f422?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   alt: NETGEAR 26-Port PoE Gigabit Ethernet Smart Switch (GS724TP) - Professional Network Equipment
 ---
 
@@ -12,7 +12,7 @@ image:
 
 *By Trevon Martin • February 22, 2023*
 
-![NETGEAR GS724TP Switch](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80){: .shadow style="max-width: 100%; height: auto;"}
+![NETGEAR GS724TP Switch](https://images.unsplash.com/photo-1520869562399-e772f042f422?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: .shadow style="max-width: 100%; height: auto;"}
 _NETGEAR 26-Port PoE Gigabit Ethernet Smart Switch (GS724TP) - Managed, 24 x 1G, 24 x PoE+ @ 190W, 2 x 1G SFP_ 🚀
 
 Netgear is a popular brand that offers a wide range of networking devices, including switches. If you've recently purchased a **NETGEAR GS724TP** or similar switch, you may be wondering how to set it up. Let's walk you through the steps to get your professional-grade Netgear switch up and running! 💪
