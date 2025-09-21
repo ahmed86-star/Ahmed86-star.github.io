@@ -185,7 +185,7 @@ pvecm status
 
 # Node status
 pvecm nodes
-# "Two nodes, infinite possibilities!" ∞
+# "Two nodes, infinite possibilities!" 🚀
 
 # Test resource availability
 pvesh get /cluster/resources
@@ -303,7 +303,7 @@ sudo apt install -y curl wget htop neofetch
 
 # Disable swap (Kubernetes doesn't like swap)
 sudo swapoff -a
-sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+sudo sed -i '/swap/d' /etc/fstab
 
 # "Kubernetes prep complete! Ready for cluster action!" 🚀
 ```
