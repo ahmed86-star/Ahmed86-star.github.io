@@ -1,6 +1,6 @@
 ---
 title: "🔌 How to Set Up Your Netgear Switch"
-date: 2025-09-20 00:00:00 +0000
+date: 2024-09-21 00:00:00 +0000
 categories: [Networking, Hardware Setup]
 tags: [netgear, switch, networking, configuration, vlan, qos, network-security, gs724tp]
 image:
@@ -10,7 +10,7 @@ image:
 
 # 🔌 How to Set Up Your Netgear Switch
 
-*By Ahmed • September 20, 2025*
+*By Ahmed • September 21, 2024*
 
 ![NETGEAR GS724TP Switch](https://images.unsplash.com/photo-1520869562399-e772f042f422?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: .shadow style="max-width: 100%; height: auto;"}
 _"When your network needs more ports than a ship needs sailors!" ⛵ - NETGEAR GS724TP Switch delivering 24 ports of pure networking joy!_ 🚀✨
