@@ -1,6 +1,6 @@
 ---
 title: "🏠 My Homelab Infrastructure - Self-Hosted Services & Learning Lab"
-date: 2025-09-21 00:00:00 +0000
+date: 2024-09-21 00:00:00 +0000
 categories: [Homelab, Infrastructure, Self-Hosted]
 tags: [homelab, proxmox, kubernetes, self-hosted, automation, networking, docker, containers, media-server]
 image:
@@ -10,7 +10,7 @@ image:
 
 # 🏠 My Homelab Infrastructure
 
-*By Ahmed • September 21, 2025*
+*By Ahmed • September 21, 2024*
 
 ![Homelab Infrastructure](https://images.unsplash.com/flagged/photo-1579274216947-86eaa4b00475?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D){: .shadow style="max-width: 100%; height: auto;"}
 
@@ -233,4 +233,4 @@ All services are monitored in real-time with automated health checks:
 
 ---
 
-*Last updated: September 21, 2025 | Built with passion for learning and self-hosting 🚀*
+*Last updated: September 21, 2024 | Built with passion for learning and self-hosting 🚀*
