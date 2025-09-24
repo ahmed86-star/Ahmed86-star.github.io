@@ -1,41 +1,157 @@
-# Chirpy Starter
+# 🚀 Ahmed's Tech Portfolio & Homelab
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fahmed86-star.github.io&style=for-the-badge&logo=github&logoColor=white)](https://ahmed86-star.github.io)
+[![GitHub Stars](https://img.shields.io/github/stars/ahmed86-star/Ahmed86-star.github.io?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmed86-star/Ahmed86-star.github.io/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ahmed86-star/Ahmed86-star.github.io?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmed86-star/Ahmed86-star.github.io/network)
+[![License](https://img.shields.io/github/license/ahmed86-star/Ahmed86-star.github.io?style=for-the-badge)](LICENSE)
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+> **Welcome to my digital home!** 🏠 This is where I document my journey through technology, homelab adventures, and software development. 
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+## 🌟 What You'll Find Here
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+### 📚 **In-Depth Tutorials**
+- 🏠 **[Complete Homelab Setup Guide](https://ahmed86-star.github.io/posts/Complete-Homelab-Setup-Guide/)** - From zero to hero in 7 phases
+- 🐳 **Docker & Container Orchestration** - Real-world implementations
+- ☸️ **Kubernetes Deployments** - Production-ready configurations
+- 🔒 **Network Security** - VPNs, firewalls, and best practices
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+### 🛠️ **Current Homelab Stack**
+```yaml
+Infrastructure:
+  Hypervisor: Proxmox VE
+  Containers: Docker + Docker Compose
+  Orchestration: K3s (Lightweight Kubernetes)
+  
+Services:
+  Media: Plex, Sonarr, Radarr
+  Monitoring: Prometheus, Grafana, Uptime Kuma
+  Network: Pi-hole, WireGuard VPN, Nginx Proxy Manager
+  Automation: Home Assistant, Portainer, Watchtower
+  
+Security:
+  Firewall: OPNsense
+  DNS: Pi-hole with custom blocklists
+  VPN: WireGuard with road warrior setup
+  Backup: Automated daily snapshots
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+### 💻 **Featured Projects**
+- 🏠 **Homelab Infrastructure** - Complete self-hosted cloud environment
+- 📊 **Monitoring Stack** - Comprehensive observability with Grafana dashboards
+- 🤖 **Automation Scripts** - Bash and PowerShell utilities for system management
+- 🔐 **Security Implementations** - Network segmentation and access control
 
-## Usage
+## 🎯 Why This Repository?
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+### ✨ **For Beginners**
+- Step-by-step guides with real examples
+- Troubleshooting common issues
+- Budget-friendly starter configurations
+- Community-tested solutions
 
-## Contributing
+### 🚀 **For Advanced Users**
+- Production-ready configurations
+- Advanced networking setups
+- Kubernetes manifests and Helm charts
+- GitOps workflows with ArgoCD
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+### 🤝 **For the Community**
+- Open source configurations
+- Detailed documentation
+- Regular updates and improvements
+- Issues and discussions welcome
 
-## License
+## 📈 **Latest Updates**
 
-This work is published under [MIT][mit] License.
+- 🆕 **Sept 2024**: Added comprehensive homelab setup guide
+- 🔄 **Sept 2024**: Updated monitoring stack with new dashboards
+- 🏠 **Aug 2024**: Homelab showcase with 20+ self-hosted services
+- 📊 **Aug 2024**: Jekyll site performance optimizations
+
+## 🌐 **Visit My Website**
+
+**👉 [ahmed86-star.github.io](https://ahmed86-star.github.io) 👈**
+
+Explore detailed tutorials, project showcases, and my complete homelab documentation. The site features:
+
+- 📱 **Responsive Design** - Perfect on all devices
+- 🌙 **Dark/Light Mode** - Easy on the eyes
+- 🔍 **Full-Text Search** - Find content quickly
+- 📊 **Interactive Demos** - See configurations in action
+- 💬 **Comments System** - Join the discussion
+
+## 🚀 **Quick Start**
+
+Want to build your own homelab or use this site template?
+
+### 1️⃣ **Clone & Customize**
+```bash
+git clone https://github.com/ahmed86-star/Ahmed86-star.github.io.git
+cd Ahmed86-star.github.io
+bundle install
+bundle exec jekyll serve
+```
+
+### 2️⃣ **Key Files to Modify**
+```
+├── _config.yml          # Site configuration
+├── docs/_posts/         # Blog posts in Markdown
+├── docs/_tabs/          # Navigation pages
+└── docs/assets/         # Images and resources
+```
+
+### 3️⃣ **Deploy to GitHub Pages**
+- Fork this repository
+- Enable GitHub Pages in repository settings
+- Your site will be live at `https://yourusername.github.io`
+
+## 🤝 **Contributing**
+
+I welcome contributions! Here's how you can help:
+
+- 🐛 **Report Issues** - Found a bug or broken link?
+- 💡 **Suggest Features** - Have ideas for new content?
+- 📖 **Improve Documentation** - Help make guides clearer
+- 🔧 **Submit Code** - Fix bugs or add new features
+
+### Contributing Guidelines
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 💬 **Get in Touch**
+
+- 🌐 **Website**: [ahmed86-star.github.io](https://ahmed86-star.github.io)
+- 📧 **Email**: [ahmed.programmer86@gmail.com](mailto:ahmed.programmer86@gmail.com)
+- 💼 **GitHub**: [@ahmed86-star](https://github.com/ahmed86-star)
+- 💬 **Discussions**: Use the [Discussions tab](https://github.com/ahmed86-star/Ahmed86-star.github.io/discussions) for questions
+
+## ⭐ **Show Your Support**
+
+If you find this repository helpful:
+- Give it a ⭐ star on GitHub
+- Share it with others in the homelab community
+- Follow for updates on new content
+- Contribute your own improvements
+
+## 📄 **License & Attribution**
+
+This project is open source and available under the [MIT License](LICENSE).
+
+**Built with:**
+- [Jekyll](https://jekyllrb.com/) - Static site generator
+- [Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy) - Beautiful Jekyll theme
+- [GitHub Pages](https://pages.github.com/) - Free hosting
+- ❤️ **Lots of coffee and late nights**
+
+---
+
+<p align="center">
+  <strong>🚀 Happy Homelabbing! 🚀</strong><br>
+  <em>"The best way to learn is by doing, and the best way to do is by sharing."</em>
+</p>
 
 [gem]: https://rubygems.org/gems/jekyll-theme-chirpy
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
