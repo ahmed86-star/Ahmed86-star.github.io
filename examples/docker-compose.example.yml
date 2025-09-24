@@ -1,0 +1,244 @@
+# 🏠 Homelab Docker Compose Configuration
+# Complete self-hosted stack for home infrastructure
+
+version: '3.8'
+
+services:
+  # 🛡️ Pi-hole - Network-wide Ad Blocking
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "8080:80/tcp"
+    environment:
+      TZ: 'America/New_York'
+      WEBPASSWORD: 'your-secure-password'
+    volumes:
+      - ./pihole/etc:/etc/pihole
+      - ./pihole/dnsmasq:/etc/dnsmasq.d
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 📊 Grafana - Monitoring Dashboard
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-data:/var/lib/grafana
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 📈 Prometheus - Metrics Collection
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🐳 Portainer - Container Management
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer-data:/data
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # ☁️ Nextcloud - Personal Cloud
+  nextcloud:
+    container_name: nextcloud
+    image: nextcloud:latest
+    ports:
+      - "8000:80"
+    environment:
+      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_HOST=nextcloud-db
+    volumes:
+      - nextcloud-data:/var/www/html
+    depends_on:
+      - nextcloud-db
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  nextcloud-db:
+    container_name: nextcloud-db
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=rootpassword
+      - MYSQL_PASSWORD=nextcloud
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+    volumes:
+      - nextcloud-db:/var/lib/mysql
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🔒 Bitwarden (Vaultwarden) - Password Manager
+  vaultwarden:
+    container_name: vaultwarden
+    image: vaultwarden/server:latest
+    ports:
+      - "8081:80"
+    environment:
+      - WEBSOCKET_ENABLED=true
+    volumes:
+      - vaultwarden-data:/data
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🎬 Jellyfin - Media Server
+  jellyfin:
+    container_name: jellyfin
+    image: jellyfin/jellyfin:latest
+    ports:
+      - "8096:8096"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+    volumes:
+      - jellyfin-config:/config
+      - ./media:/media:ro
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🏠 Home Assistant - Smart Home Hub
+  homeassistant:
+    container_name: homeassistant
+    image: homeassistant/home-assistant:stable
+    ports:
+      - "8123:8123"
+    environment:
+      - TZ=America/New_York
+    volumes:
+      - homeassistant-config:/config
+    restart: unless-stopped
+    network_mode: host
+    privileged: true
+
+  # 📺 Sonarr - TV Show Management
+  sonarr:
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr:latest
+    ports:
+      - "8989:8989"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+    volumes:
+      - sonarr-config:/config
+      - ./downloads:/downloads
+      - ./tv:/tv
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🎬 Radarr - Movie Management
+  radarr:
+    container_name: radarr
+    image: lscr.io/linuxserver/radarr:latest
+    ports:
+      - "7878:7878"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+    volumes:
+      - radarr-config:/config
+      - ./downloads:/downloads
+      - ./movies:/movies
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  # 🌐 Nginx Proxy Manager - Reverse Proxy
+  nginx-proxy-manager:
+    container_name: nginx-proxy-manager
+    image: jc21/nginx-proxy-manager:latest
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8082:81"
+    environment:
+      DB_MYSQL_HOST: npm-db
+      DB_MYSQL_PORT: 3306
+      DB_MYSQL_USER: npm
+      DB_MYSQL_PASSWORD: npm
+      DB_MYSQL_NAME: npm
+    volumes:
+      - npm-data:/data
+      - npm-letsencrypt:/etc/letsencrypt
+    depends_on:
+      - npm-db
+    restart: unless-stopped
+    networks:
+      - homelab
+
+  npm-db:
+    container_name: npm-db
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: npm
+      MYSQL_USER: npm
+      MYSQL_PASSWORD: npm
+    volumes:
+      - npm-db:/var/lib/mysql
+    restart: unless-stopped
+    networks:
+      - homelab
+
+# 💾 Persistent Volumes
+volumes:
+  grafana-data:
+  prometheus-data:
+  portainer-data:
+  nextcloud-data:
+  nextcloud-db:
+  vaultwarden-data:
+  jellyfin-config:
+  homeassistant-config:
+  sonarr-config:
+  radarr-config:
+  npm-data:
+  npm-letsencrypt:
+  npm-db:
+
+# 🌐 Networks
+networks:
+  homelab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
